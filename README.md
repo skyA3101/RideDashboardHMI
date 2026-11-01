@@ -6,6 +6,22 @@ A landscape Android HMI dashboard that shows **vehicle speed (km/h)**, **motor s
 **kill-switch status (Active/Inactive)**. A simulated vehicle feed drives it reactively, built with
 Kotlin, Jetpack Compose, Coroutines/Flow, MVVM, Clean Architecture and Hilt.
 
+## Screenshots
+
+All five required scenarios, updating automatically from the simulated feed:
+
+| Parked | Ready |
+|---|---|
+| ![Parked](screenshots/1-parked.png) | ![Ready](screenshots/2-ready.png) |
+
+| Riding | Accelerating |
+|---|---|
+| ![Riding](screenshots/3-riding.png) | ![Accelerating](screenshots/4-accelerating.png) |
+
+**Motor disabled (kill switch active)**
+
+![Motor disabled](screenshots/5-motor-disabled.png)
+
 ## Build & run
 
 **Requirements:** Android Studio Ladybug or newer (or just the Android SDK), JDK 17, Android SDK 35.
