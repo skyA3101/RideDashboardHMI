@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Ride HMI</string>
+    <string name="app_title">Ride HMI</string>
+
+    <string name="unit_kmh">km/h</string>
+    <string name="speed_invalid">Invalid speed signal</string>
+    <string name="speed_unavailable">No speed data</string>
+    <string name="value_unavailable">N/A</string>
+
+    <string name="motor_title">Motor</string>
+    <string name="motor_on">ON</string>
+    <string name="motor_off">OFF</string>
+
+    <string name="kill_title">Kill switch</string>
+    <string name="kill_active">ACTIVE</string>
+    <string name="kill_inactive">INACTIVE</string>
+
+    <string name="ride_parked">Parked</string>
+    <string name="ride_ready">Ready</string>
+    <string name="ride_riding">Riding</string>
+    <string name="ride_accelerating">Accelerating</string>
+    <string name="ride_coasting">Coasting</string>
+    <string name="ride_motor_disabled">Motor disabled</string>
+    <string name="ride_unknown">Unknown</string>
+
+    <string name="signal_awaiting">CONNECTING</string>
+    <string name="signal_live">LIVE</string>
+    <string name="signal_stale">STALE</string>
+    <string name="signal_lost">NO SIGNAL</string>
+    <string name="banner_awaiting">Waiting for vehicle data…</string>
+    <string name="banner_stale">Vehicle data delayed. Showing last known values</string>
+    <string name="banner_lost">Vehicle data source lost. Reconnecting…</string>
+
+    <string name="fault_injection">Fault injection demo</string>
+
+    <string name="cd_speed">Speed %1$d kilometres per hour</string>
+    <string name="cd_motor">Motor %1$s</string>
+    <string name="cd_kill_switch">Kill switch %1$s</string>
+</resources>
