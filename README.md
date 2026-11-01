@@ -1,5 +1,7 @@
 # Ride HMI – Landscape Home/Ride Dashboard
 
+**Author:** Akash Chaurasia · akashenf118@gmail.com
+
 A landscape Android HMI dashboard that shows **vehicle speed (km/h)**, **motor status (ON/OFF)** and
 **kill-switch status (Active/Inactive)**. A simulated vehicle feed drives it reactively, built with
 Kotlin, Jetpack Compose, Coroutines/Flow, MVVM, Clean Architecture and Hilt.
@@ -9,6 +11,9 @@ Kotlin, Jetpack Compose, Coroutines/Flow, MVVM, Clean Architecture and Hilt.
 **Requirements:** Android Studio Ladybug or newer (or just the Android SDK), JDK 17, Android SDK 35.
 
 ```bash
+# macOS/Linux only, if the project was downloaded as a ZIP
+chmod +x gradlew
+
 # Build a debug APK
 ./gradlew assembleDebug
 
